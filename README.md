@@ -50,19 +50,32 @@ The application is built using **Streamlit**, providing an interactive chat inte
 | Language | Python |
 
 ---
+## Screenshot
+
+<img width="1864" height="960" alt="image" src="https://github.com/user-attachments/assets/8252788a-53b9-45d4-908c-73cad85b981c" />
+
+---
 
 # System Architecture
 
 The system is organized into multiple layers:
 
 User Interface Layer (Streamlit)
-           ↓
+
+ ↓
+ 
 Application Layer (app.py)
-           ↓
+
+ ↓
+ 
 Configuration Layer (settings.py)
-           ↓
+
+↓
+
 Core RAG Pipeline
-           ↓
+
+ ↓
+ 
 External Services (Groq, Tavily, HuggingFace)
 
 
