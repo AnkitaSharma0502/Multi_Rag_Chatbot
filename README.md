@@ -54,32 +54,6 @@ The application is built using **Streamlit**, providing an interactive chat inte
 
 <img width="1864" height="960" alt="image" src="https://github.com/user-attachments/assets/8252788a-53b9-45d4-908c-73cad85b981c" />
 
----
-
-# System Architecture
-
-The system is organized into multiple layers:
-
-User Interface Layer (Streamlit)
-
- ↓
- 
-Application Layer (app.py)
-
- ↓
- 
-Configuration Layer (settings.py)
-
-↓
-
-Core RAG Pipeline
-
- ↓
- 
-External Services (Groq, Tavily, HuggingFace)
-
-
----
 
 # High-Level Architecture
 
@@ -182,6 +156,10 @@ Used when:
 
 Provides the embedding model used for semantic search.
 
+
+<img width="1026" height="559" alt="image" src="https://github.com/user-attachments/assets/39c6c7d6-57e7-415b-bc7b-8571a7bb7f4f" />
+
+
 ---
 
 # Low-Level Architecture
@@ -277,6 +255,10 @@ This enables the chatbot to answer:
 - recent events
 - current statistics
 - latest research updates
+
+
+<img width="974" height="770" alt="image" src="https://github.com/user-attachments/assets/bbe7d5fb-525a-4311-b1a3-a7de6b21c32f" />
+
 
 ---
 
